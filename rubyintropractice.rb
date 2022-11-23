@@ -63,7 +63,7 @@
 # # Create a variable that contains a string and test some of the Ruby string 
 # # methods:
 
-# greeter = 'Hello Golf!'
+greeter = 'Hello Golf!'
 # puts greeter
 
 # # .upcase 
@@ -80,7 +80,7 @@
 # puts greeter2.capitalize
 
 # # .delete
-# puts greeter.delete "l"
+puts greeter.delete "l"
 
 # # .index
 # puts greeter.index('l')
@@ -90,7 +90,7 @@
 
 # # Create an array that contains the name of at least five TV shows you enjoy.
 
-shows_array = ['Let the right one in', 'AHS', 'Law and Order', 'Forenseic Files', 'P Valley']
+# shows_array = ['Let the right one in', 'AHS', 'Law and Order', 'Forenseic Files', 'P Valley']
 # puts shows_array
 
 # # Find the length of the array.
@@ -112,6 +112,6 @@ shows_array = ['Let the right one in', 'AHS', 'Law and Order', 'Forenseic Files'
 
 # Using the full TV show array, add your top two favorite shows to the empty array.
 
-shows_array = shows_array << 'AHS', 'P Valley'
-puts shows_array
+# shows_array = shows_array << 'AHS', 'P Valley'
+# puts shows_array()
 
