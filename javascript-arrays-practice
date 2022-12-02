@@ -1,0 +1,137 @@
+var groceryList = ["chips", "dip", "cookies"]
+// Write the code that will add "soda" to the end of the original array.
+
+// groceryList.push("soda")
+// console.log(groceryList)
+
+// Write the code that will add "granola" to the end of array without altering the original array.
+
+// var newGroceryList = groceryList.concat("granola")
+// console.log(newGroceryList)
+
+
+// Write the code that will return a subset of the array containing only "chips" and "dip".
+
+// var slicedList = groceryList.slice(0, 2)
+// console.log(slicedList)
+
+// Write the code that will add "beans" to the "chips" and "dip" array.
+
+// newList2 = (slicedList.concat("beans"))
+// console.log(newList2)
+
+// console.log(slicedList.concat("beans"))
+
+var numbers = [2, 4, 6, 8, 10]
+// Write the code that will add the number 0 to the beginning of the array.
+
+// numbers.unshift((0))
+// console.log(numbers)
+
+// Write the code that will add the number 12 to the end of the array.
+
+// numbers.push((12))
+// console.log(numbers)
+
+// Write the code that will remove the first number from the array.
+
+// console.log(numbers.shift())
+// console.log(numbers)
+
+// Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
+
+// var newNumbers = [0,...numbers]
+// console.log(newNumbers)
+// console.log(numbers)
+
+var numSet = [2, 13, 6, 8, 4, 2]
+// Write the code that finds the index of the first appearance of the number 2.
+
+// console.log(numSet.indexOf(2))
+
+// Write the code that finds the index of the last appearance of the number 2.
+
+// console.log(numSet.lastIndexOf(2))
+
+// Write the code that returns the number at the third index.
+
+// console.log(numSet[3])
+
+var characters = ["y", "a", "r", "r", "a"]
+// Write the code that brings all the letters in the characters array together into a string.
+
+// console.log(characters.join())
+
+// Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+
+var charsReversed = characters.reverse()
+// console.log(charsReversed)
+
+// Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
+
+// console.log(charsReversed.join('*'))
+
+// Write the code that brings all the letters in the charsReversed array together into a string without separators.
+
+// console.log(charsReversed.join(""))
+
+// Create two arrays consisting of three first names of your cohort members in each.
+
+var cohort1 = ["Tabi", "Mike", "Bella"]
+var cohort2 = ["Zeek", "Kent", "Manny"]
+
+// Write the code that sorts the names in alphabetical order.
+
+// console.log(cohort1.sort())
+// console.log(cohort2.sort())
+
+// Write the code that sorts the names in reverse alphabetical order.
+
+// cohort1.sort((a, b) => (a > b ? -1 : 1))
+// console.log(cohort1)
+
+// cohort1.sort()
+// cohort1.reverse()
+// console.log(cohort1)
+
+// cohort2.sort()
+// cohort2.reverse()
+// console.log(cohort2)
+
+// cohort1.sort().reverse()
+// console.log(cohort1)
+
+// randomNums = [3, 40, 12, 2, 1, 90]
+// randomNums.sort()
+// console.log(randomNums)
+
+// randomNums.sort((b, a) => a - b) // ask question about why this doesn't change or does change based on which are reversed
+// console.log(randomNums)
+
+// Write the code that sorts all the names in alphabetical order in a single array.
+
+// Pseudocode:
+// combine arrays using .concat
+// save in a new variable called comboArray
+// sort new array
+
+// var comboArray = (cohort1.concat(cohort2))
+// console.log(comboArray.sort())
+
+var numbers = [42, 221, 71, 7, 18, 87]
+var oddIndexes = []
+// Write the code that logs the values from the numbers array that are at odd indexes.
+
+var odds = numbers.filter((num) => num %2 === 1)
+// console.log(odds)
+
+// Write the code that adds the values from odd indexes into the oddIndexes array.
+
+console.log(oddIndexes.concat(odds))
+// console.log(oddIndexes)
+
+
+
+
+
+
