@@ -129,10 +129,10 @@
 
 // -. Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
 
-const yelling = (string) => {
-   return string.toUpperCase()
-}
-console.log(yelling("shannon"))
+// const yelling = (string) => {
+//    return string.toUpperCase()
+// }
+// console.log(yelling("shannon"))
 
 
 // 🏔 Stretch Goals
@@ -142,9 +142,22 @@ console.log(yelling("shannon"))
 // Have your function default to returning English.
 // The Pluralizer
 
-const helloWorld = (() => {
-    
+// Pseudocode
+// create function called helloWorld that takes in a language code as an argument and returns "Hello World!" in the given language
+// default should return in English
+// input: language code
+// output: "Hello World!" in given languag
+
+const helloWorld = ((lang) => {
+    if (lang == "fr") {
+        return 'Bonjour tout le monde!'
+    } else if (lang == "es") {
+        return 'Hola Mundo!'
+    } else {
+        return "Hello World!"
+    }
 })
+console.log(helloWorld("es"))
 
 // Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
 // Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
