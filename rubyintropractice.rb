@@ -26,10 +26,12 @@
 # Create a variable and assign an integer.
 
 # Calculate the variable divided by 2.
-#  nums = 4
+ nums = 4
+# p nums
 
 # Find the remainder of the variable when divided by 3.
-#  nums % 3
+ p nums * 2
+ 
 
 # Create another variable and assign it the integer 13.
 # nums 2 = 13
