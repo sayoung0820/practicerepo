@@ -65,7 +65,7 @@ var theAnswer = 42
 // console.log(theQuestion.indexOf('f'))
 // console.log("life, the universe, and everything" + " " + "42")
 console.log(theQuestion.concat(theAnswer))
-console.log(theQuestion.concat(" ", theAnswer))
+// console.log(theQuestion.concat(" ", theAnswer))   test
 // console.log(theQuestion.slice(5, 18))
 // console.log(theQuestion.charAt(0))
 // console.log(theQuestion.length > theAnswer.length)

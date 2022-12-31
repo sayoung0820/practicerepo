@@ -13,7 +13,7 @@ var groceryList = ["chips", "dip", "cookies"]
 // Write the code that will return a subset of the array containing only "chips" and "dip".
 
 // var slicedList = groceryList.slice(0, 2)
-// console.log(slicedList)
+// console.log(slicedList) test
 
 // Write the code that will add "beans" to the "chips" and "dip" array.
 

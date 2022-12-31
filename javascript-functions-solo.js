@@ -37,7 +37,7 @@
 // })
 // console.log(oddOrEven(5))
 
-// Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
+// test Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 
 // Pseudocode
 // create function called triple that takes a number as an argument and returns number * 3

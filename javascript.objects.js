@@ -12,7 +12,7 @@
 
 // console.log(person.lastName)
 
-// Write the code that gives the person object a property of homePlanet and set it to 'Earth'.
+// test Write the code that gives the person object a property of homePlanet and set it to 'Earth'.
 
 // const person = {
 //     firstName: "Arthur",

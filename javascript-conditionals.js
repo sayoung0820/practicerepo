@@ -34,7 +34,7 @@ if (hungry === true) {
     console.log("keep coding")
 }
 
-// Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
+// test Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
 
 let trafficLight = "yellow"
 

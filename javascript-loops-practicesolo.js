@@ -2,6 +2,8 @@ for (let i = 0; i <= 10; i++) {
     console.log(i)
   }
 
+  // test
+
 //   for (let i = 40; i > 30; i--) {
 //     console.log(i)
 //   }

@@ -1,4 +1,4 @@
-// Jest Template:
+ // Jest Template: test
 // describe("functionName", () => {
 //   it("describe what functionName does here", () => {
 //     expect(functionName("pass arg as needed")).toEqual("expected output")

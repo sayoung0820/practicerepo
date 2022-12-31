@@ -60,7 +60,7 @@ const comboArr = [
 // create a function that takes in an array and returns a string with only letters
 // input: array
 // output: "nicework"
-// use .typeof method on array
+// use .typeof method on array test
 
 const lettersOnly = (array) => {
     let letters = [];

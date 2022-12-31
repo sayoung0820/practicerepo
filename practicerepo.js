@@ -201,7 +201,7 @@ if(myName === "Shannon"){
 // var numsArray = [2, 4, 6]
 // var lettersArray = [`a`, `b`, `c`,]
 // var concatArrays = numsArray.concat(lettersArray)
-// console.log(concatArrays)
+// console.log(concatArrays) test
 
 
 // ARRAY DESTRUCTURING - ALLOWS YOU TO TAKE VARIABLES OUT OF ARRAYS BASED ON THE POSITION THEY ARE IN WITHIN THE BRACKET NOTATION

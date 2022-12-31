@@ -107,7 +107,7 @@ latteProfile(){
 
 // Write a Latte class that takes a flavor, a milk type, and a number of shots
 // Write a method for your Latte class that outputs the latte's profile
-// Write the code that makes a regular, single shot latte
+// Write the code that makes a regular, single shot latte test
 
 var shannonLatte = new Latte ("french vanilla", "regular", "single")
 

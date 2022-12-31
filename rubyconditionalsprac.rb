@@ -80,7 +80,7 @@ learn_crew = {:first=>'Kent', :second=>'Ramirez', :third=> 'Matt'}
 # fuzz = movie_hash[:action_comedy].delete
 # p movie_hash
 
-# Duck Typing
+# Duck Typing test
     # Ennumerables
         # things that are iterable
         # Range
