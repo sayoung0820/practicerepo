@@ -1,6 +1,8 @@
-// for (let i = 0; i < 4; i++) {
-//     console.log(i)
-//   }
+for (let i = 0; i <= 10; i++) {
+    console.log(i)
+  }
+
+  // test
 
 //   for (let i = 40; i > 30; i--) {
 //     console.log(i)
@@ -71,15 +73,15 @@ const nums = [3, 57, -9, 20, 67]
 //     console.log(nums[i] % 2)
 // }
 
-const myString = "learn student"
-// Create the code that will log the number of times the letter "e" occurs in the string.
-let count = 0
-for (let i = 0; i < myString.length; i++) {
-    if(myString[i] === "e") {
-        count++
-    }
-}
-console.log(count[i])
+// const myString = "learn student"
+// // Create the code that will log the number of times the letter "e" occurs in the string.
+// let count = 0
+// for (let i = 0; i < myString.length; i++) {
+//     if(myString[i] === "e") {
+//         count++
+//     }
+// }
+// console.log(count[i])
 // Create the code that will log every other character in the string.
 // 🏔 Stretch Goals
 // Create the code that iterates from 5 to 15. For each iteration log if the current number is odd or even.

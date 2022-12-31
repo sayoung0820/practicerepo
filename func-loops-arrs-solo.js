@@ -12,7 +12,7 @@
 //     }
 //     return newArr
 // })
-// console.log(mult3(testArr2))
+// console.log(mult3(myArr1))
 
 
 // Write a function that takes in an array of numbers and returns a new array with only odd numbers.
@@ -60,19 +60,20 @@ const comboArr = [
 // create a function that takes in an array and returns a string with only letters
 // input: array
 // output: "nicework"
-// use .typeof method on array
+// use .typeof method on array test
 
-// const lettersOnly = ((array) => {
-//     let letters = [];
-//     for (let i = 0; i < array.length; i++) {
-//         if (typeof array[i] == "string") {
-//             letters.push(array[i])
-//         }
-//     }
-//     let makeString = letters.join("")
-//     return makeString
-// })
-// console.log(lettersOnly(comboArr))
+const lettersOnly = (array) => {
+    let letters = [];
+    for (let i = 0; i < array.length; i++) {
+        if (typeof array[i] == "string") {
+            letters.push(array[i])
+        }
+    }
+    let makeString = letters.join("")
+    return makeString
+}
+console.log(lettersOnly(comboArr))
+
 
 // Create a function that takes in an array of numbers and returns the sum.
 const addThese1 = [1, 2, 3, 4]
@@ -129,17 +130,76 @@ const indexHighestNumber = [1, 4, 2, 3]
 
 // 🏔 Stretch Goals
 // Create a function that takes in two arrays and returns one array with no duplicate values.
-// const arr1 = [3, 7, 10, 5, 4, 3, 3]
-// const arr2 = [7, 8, 2, 3, 1, 5, 4]
+const arr1 = [3, 7, 10, 5, 4, 3, 3]
+const arr2 = [7, 8, 2, 3, 1, 5, 4]
 // // output: [3, 7, 10, 5, 4, 8, 2, 1]
+
+// Pseudocode:
+// first join the arrays using concat
+// save in new variable
+// then use new Set to iterate over arrays and remove dupes
+// save in new variable
+// return new variable/array
+
+
+const noDupes = (arr1, arr2) => {
+  let newArr = (arr1.concat(arr2))
+  let uniqueNums = [...new Set(newArr)]
+  return uniqueNums
+  }
+console.log(noDupes(arr1, arr2))
+
 // Create a function that takes in two numbers as arguments and returns an array the length of the first number filled with the second number.
-// const arrayLength = 6
-// const arrayValue = 0
-// // output: [0, 0, 0, 0, 0, 0]
+const arr3 = [6]
+const arr4 = [0]
+// input: [6], [0]
+// output: [0, 0, 0, 0, 0, 0]
+
+const makeArrayOf = (value, length) => {
+  var arr = [], i = length;
+  while (i--) {
+    arr[i] = value;
+  }
+  return arr;
+}
+
+console.log(makeArrayOf(0, 6)) // [0, 0, 0, 0, 0]
+
+// makeArrayOf('x', 3); // ['x', 'x', 'x']
+
+// const test = [1, 2, 3, 4, 5]
+// console.log(arrayLength.fill(0, 1))
 
 // const arrayLength = 4
 // const arrayValue = 11
 // // output: [11, 11, 11, 11]
+
+// Gonna try it using a higher order function and a for loop
+// HOF - iterate over the array and replace each value/index with 0, possibly using foreach
+// ForLoop = iterate over array, exchange each value/index with 0, possibly using .filter
+// two parameters, two numbers 
+
+// const filled = (arr1, arr2) => {
+//   for(let i = 0; i < arr1.length; i++) {
+//   arr1.apply(null, arr2(6)).map(Number.prototype.valueOf,0);
+// return newArray
+//   }
+// }
+
+// const filledUp = ((arr3, arr4) => {
+//   let newArr = arr3(6+1).join('0').split('')
+//   return newArr
+// })
+// console.log(filledUp(arr3))
+
+
+
+
+
+
+
+
+
 // Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function.
 // const addUp1 = 4
 // // 1 + 2 + 3 + 4 = 10
@@ -151,6 +211,8 @@ const indexHighestNumber = [1, 4, 2, 3]
 
 // const addUp3 = 600
 // // output: 180300
+
+
 // 🏔 Epic Goals
 // Create a function called highLow that takes in a number and returns whether the number is higher or lower than the "answer".
 // Create an HTML page and link your JavaScript file. More info here.

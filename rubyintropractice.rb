@@ -26,10 +26,12 @@
 # Create a variable and assign an integer.
 
 # Calculate the variable divided by 2.
-#  nums = 4
+ nums = 4
+# p nums
 
 # Find the remainder of the variable when divided by 3.
-#  nums % 3
+ p nums * 2
+ 
 
 # Create another variable and assign it the integer 13.
 # nums 2 = 13
@@ -113,5 +115,5 @@ puts greeter.delete "l"
 # Using the full TV show array, add your top two favorite shows to the empty array.
 
 # shows_array = shows_array << 'AHS', 'P Valley'
-# puts shows_array()
+# puts shows_array() test
 

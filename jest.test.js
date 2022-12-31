@@ -1,4 +1,4 @@
-// Jest Template:
+ // Jest Template: test
 // describe("functionName", () => {
 //   it("describe what functionName does here", () => {
 //     expect(functionName("pass arg as needed")).toEqual("expected output")
@@ -160,8 +160,8 @@ describe("greeter", () => {
 
 // Create the function that will make the test pass.
 
-const greeter = (name) => {
-    return "Hey Shannon!"
+const greeter = (string) => {
+     return "Hey Shannon!"
 }
 
 // Write the test for a function called oddOrEven that takes a number as an argument and logs whether the number is odd or even.
@@ -241,26 +241,26 @@ describe("fizzbuzz", () => {
 
 // Create the function that will make the test pass.
 
-const fizzbuzz = (num5) => {
-    if (num5 % 3 === 0) {
-        return "fizz"
-    } else if (num5 % 5 === 0) {
-        return "buzz"
-    } else if (num5 % 3 === 0 && num5 % 5 === 0) {
-        return "fizzbuzz"
-    }
-}
+// const fizzbuzz = (num5) => {
+//     if (num5 % 3 === 0) {
+//         return "fizz"
+//     } else if (num5 % 5 === 0) {
+//         return "buzz"
+//     } else if (num5 % 3 === 0 && num5 % 5 === 0) {
+//         return "fizzbuzz"
+//     }
+// }
 
 // why did the bottom one pass and not the top one
 
-// const fizzbuzz = (num5) => {
-//     if (num5 % 3 === 0 && num5 % 5 === 0) {
-//         return "fizzbuzz"
-//     } else if (num5 % 5 === 0) {
-//         return "buzz"
-//     } else if (num5 % 3 === 0) {
-//         return "fizz"
-//     }
-// } 
+const fizzbuzz = (num5) => {
+    if (num5 % 3 === 0 && num5 % 5 === 0) {
+        return "fizzbuzz"
+    } else if (num5 % 5 === 0) {
+        return "buzz"
+    } else if (num5 % 3 === 0) {
+        return "fizz"
+    }
+} 
 
 

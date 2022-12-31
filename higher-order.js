@@ -57,7 +57,7 @@ const filterArrayValues = [58, "", "abcd", true, null, false, 0]
 // take in array of mixed data
 // inside function create variable to hold removed values
 // .filter to iterate and return subset of array
-// return final variable
+// return final variable test
 
 // const notFalse = (array) => {
 //     let oneType = array.filter(value => typeof value ==  "number" && "string")
